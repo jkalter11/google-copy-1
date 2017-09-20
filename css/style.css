@@ -1,3 +1,51 @@
+div {
+	display: inline-block;
+}
+
 #top {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
 	float:right;
+	height: 30px;
+	text-decoration:none;
+}
+
+#top a {
+	text-decoration:none;
+	color: #272727;
+	font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin-right: 15px;
+    margin-top: 13px;
+    text-decoration: none;
+    color: #272727;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#apps {
+	height: 30px;
+    width: 30px;
+    background-color: black;
+    background: url(../images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    opacity: .55;
+    display:inline-block;
+}
+
+#button {
+	display: inline-block;
+	float: right;
+	margin-top: 4px;
+	margin-left: 15px;
+	margin-right: 15px;
+	background: linear-gradient(#4387fc, #4683eb);
+	outline: none;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	font-weight: bold;
+	padding-left: 13px;
+	padding-right: 13px;
+	height: 30px;
 }
