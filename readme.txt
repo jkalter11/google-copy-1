@@ -1,0 +1,1 @@
+This is a visual copy of Google's homepage. It's just a fun project to teach myself some html and css so don't expect it to do anything!
