@@ -1,23 +1,23 @@
-div {
-	display: inline-block;
+body {
+	margin:0;
 }
 
 #top {
+	padding-top:10px;
+	padding-right: 5px;
 	font-family: Arial, sans-serif;
 	font-size: 13px;
 	float:right;
 	height: 30px;
 	text-decoration:none;
+	cursor: auto;
 }
 
 #top a {
 	text-decoration:none;
 	color: #272727;
-	font-family: Arial, sans-serif;
-    font-size: 13px;
     margin-right: 15px;
-    margin-top: 13px;
-    text-decoration: none;
+    margin-top: 6px;
     color: #272727;
     vertical-align: middle;
     display: inline-block;
@@ -31,11 +31,11 @@ div {
     background-position: -132px -38px;
     opacity: .55;
     display:inline-block;
+    vertical-align: middle;
 }
 
-#button {
+#button-div {
 	display: inline-block;
-	float: right;
 	margin-top: 4px;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -45,7 +45,69 @@ div {
 	border: none;
 	border-radius: 3px;
 	font-weight: bold;
-	padding-left: 13px;
-	padding-right: 13px;
 	height: 30px;
+}
+
+#button-div button {
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 15px;
+	background: linear-gradient(#4387fc, #4683eb);
+	outline: none;
+	color: white;
+	border: none;
+	font-weight: bold;
+	vertical-align: middle;
+	height: 30px;
+}
+
+#mid {
+	padding-top:145px;
+	width: 900px;
+	display:block;
+	margin:0 auto;
+}
+
+#google-image img {
+	display:block;
+	margin: 0 auto;
+	padding-top 112px;
+}
+
+#search-bar {
+	width: 600px;
+	display:block;
+	padding: 0px;
+	margin:0 auto;
+	border: 1px solid #e8e8e8;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px #dcdcdc;
+}
+
+#search-bar input {
+	border:none;
+	padding-top: 5px;
+	padding-bottom:8px;
+	padding-left: 12px;
+	padding-right: 25px;
+	width: 500px;
+}
+
+input:focus {
+	outline:none;
+}
+
+#search-buttons {
+	width: 250px;
+	margin:0 auto;
+	padding-top: 10px;
+}
+
+#search-buttons button {
+}
+
+#mic {
+	width: 3%;
+	display:inline-block;
+	vertical-align: middle;
 }
