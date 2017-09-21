@@ -160,6 +160,10 @@ input:focus {
 	text-decoration: none;
 }
 
+#bottom a:active{
+	color: none;
+}
+
 #bottom-left {
 	float:left;
 	padding-left: 20px;
